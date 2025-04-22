@@ -94,6 +94,7 @@ Serial commands:
 - bw, alpha = selector.fit()
 - sgwr_model = SGWR(g_coords, g_y, g_x, bw, data, alpha) 
 - result = sgwr_model.fit()
+- if the 'alpha' value set to one (1) here (SGWR(g_coords, g_y, g_x, bw, data, 1)), then the model acts as GWR model.  
 
 Parameter extraction when running in serial mode:
 ----------------------------
