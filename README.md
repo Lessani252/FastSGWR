@@ -1,11 +1,5 @@
 FastSGWR: "Enhancing the Computational Efficiency of the SGWR Model and Introducing Its Software Implementation." This article along the python packages (parallel & sequential), and a Graphic User Interface (GUI) tool named 'SGWR Model' is developed based on this article: similarity and geographically weighted regression (SGWR) (https://doi.org/10.1080/13658816.2024.2342319).  
 
-Author info
-------------
-- Code Author: M. Naser Lessani (GIBD)
-- Realeased Year: 2025
-- Affiliation: Geoinformation and Big Data Research Laboratory (GIBD), Department of Geography, The Pennsylvania State University, University Park, PA, USA (https://giscience.psu.edu/) 
-
 Citation
 --------
 If you use this package in your work, please cite the following articles:
@@ -41,7 +35,6 @@ Input data must be a CSV file with the following column order:
 - "Longitude" and "Latitude" are the coordinate
 
 ![data format](https://github.com/user-attachments/assets/e5e6547d-5eb0-444a-a9be-8b315cbf9997)
-
 
 Categorical variables
 ---------------------
@@ -129,3 +122,9 @@ Machine Learning and Metrics:
 
 Specialized Geospatial Modeling:
 - spglm (family, glm, iwls, utils)
+
+Author info
+------------
+- Code Author: M. Naser Lessani (GIBD)
+- Realeased Year: 2025
+- Affiliation: Geoinformation and Big Data Research Laboratory (GIBD), Department of Geography, The Pennsylvania State University, University Park, PA, USA (https://giscience.psu.edu/) 
