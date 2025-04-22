@@ -55,12 +55,13 @@ Specialized Geospatial Modeling:
 - spglm (family, glm, iwls, utils)
 
 
-Data Format
------------
+Data Format for parallel version (MPI)
+--------------------------------------
 Input data must be a CSV file with the following column order:
+- longitude, latitude, dependent_variable, independent_variable_1, ..., independent_variable_n
 
-longitude, latitude, dependent_variable, independent_variable_1, ..., independent_variable_n
-
+Categorical variables
+---------------------
 Categorical variables must be pre-processed into dummy variables.
 Example: For a 3-class variable ("urban", "peri-urban", "rural"), create:
 - urban_dummy: 1 if urban, else 0
