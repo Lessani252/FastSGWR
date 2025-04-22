@@ -10,7 +10,7 @@ Citation
 --------
 If you use this package in your work, please cite the following articles:
 
-1. Lessani, M. Naser, and Zhenlong Li. "SGWR: similarity and geographically weighted regression." International Journal of Geographical Information Science 38, no. 7 (2024): 1232-1255.
+1. Lessani, M. Naser, and Zhenlong Li. "SGWR: similarity and geographically weighted regression." International Journal of Geographical Information Science 38, no. 7 (2024): 1232-1255. (https://doi.org/10.1080/13658816.2024.2342319)
 2. Lessani, M. Naser, and Zhenlong Li. "Enhancing the Computational Efficiency of the SGWR Model and Introducing Its Software Implementation." Annals of GIS (2025).
    
 Overview
@@ -66,6 +66,11 @@ Data Format for parallel version (MPI)
 --------------------------------------
 Input data must be a CSV file with the following column order:
 - longitude, latitude, dependent_variable, independent_variable_1, ..., independent_variable_n
+- In the attached figure, "y" stands for dependent variable, "x1,x2,...xn" stand for independent variables
+- "Longitude" and "Latitude" are the coordinate
+
+![data format](https://github.com/user-attachments/assets/e5e6547d-5eb0-444a-a9be-8b315cbf9997)
+
 
 Categorical variables
 ---------------------
