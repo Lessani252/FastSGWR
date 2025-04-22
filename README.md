@@ -6,6 +6,13 @@ Author info
 - Realeased Year: 2025
 - Affiliation: Geoinformation and Big Data Research Laboratory (GIBD), Department of Geography, The Pennsylvania State University, University Park, PA, USA (https://giscience.psu.edu/) 
 
+Citation
+--------
+If you use this package in your work, please cite the following articles:
+
+1. Lessani, M. Naser, and Zhenlong Li. "SGWR: similarity and geographically weighted regression." International Journal of Geographical Information Science 38, no. 7 (2024): 1232-1255.
+2. Lessani, M. Naser, and Zhenlong Li. "Enhancing the Computational Efficiency of the SGWR Model and Introducing Its Software Implementation." Annals of GIS (2025).
+   
 Overview
 --------
 The SGWR (Similarity and Geographically Weighted Regression) model is a novel local spatial regression model that extends the conventional GWR by incorporating both geographical proximity and attribute similarity into a composite spatial weight matrix. The  combination of spatial and attribute-based weights is governed by a parameter alpha, which is optimized based on AICc measure.
@@ -123,9 +130,3 @@ The GUI tool includes:
 
 We acknowledge that this tool has been developed on top of the MGWR GUI tool.
 
-Citation
---------
-If you use this package in your work, please cite the following articles:
-
-1. Lessani, M. Naser, and Zhenlong Li. "SGWR: similarity and geographically weighted regression." International Journal of Geographical Information Science 38, no. 7 (2024): 1232-1255.
-2. Lessani, M. Naser, and Zhenlong Li. "Enhancing the Computational Efficiency of the SGWR Model and Introducing Its Software Implementation." Annals of GIS (2025).
