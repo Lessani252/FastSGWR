@@ -33,35 +33,6 @@ Key Features
 - Evaluation Metrics: Outputs include R², adjusted R², AICc, and other metrics
 - Also, users can run the GWR model in both parallel and serial version of this library
 
-Installation Requirements
--------------------------
-Ensure the following dependencies are installed:
-
-Standard Python Libraries:
-- os
-- argparse
-- datetime
-- math
-- copy
-- typing (Optional)
-- itertools (combinations)
-
-MPI and CLI:
-- mpi4py
-- click
-
-Numerical and Data Handling:
-- numpy
-- pandas
-- scipy (stats, linalg, spatial.distance)
-
-Machine Learning and Metrics:
-- scikit-learn (metrics)
-
-Specialized Geospatial Modeling:
-- spglm (family, glm, iwls, utils)
-
-
 Data Format for parallel version (MPI)
 --------------------------------------
 Input data must be a CSV file with the following column order:
@@ -135,3 +106,26 @@ The GUI tool includes:
 
 We acknowledge that this tool has been developed on top of the MGWR GUI tool.
 
+Installation Requirements
+-------------------------
+Ensure the following dependencies are installed:
+
+Standard Python Libraries:
+- argparse
+- typing (Optional)
+- itertools (combinations)
+
+MPI and CLI:
+- mpi4py
+- click
+
+Numerical and Data Handling:
+- numpy
+- pandas
+- scipy (stats, linalg, spatial.distance)
+
+Machine Learning and Metrics:
+- scikit-learn (metrics)
+
+Specialized Geospatial Modeling:
+- spglm (family, glm, iwls, utils)
