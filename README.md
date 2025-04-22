@@ -17,14 +17,8 @@ This Python package includes:
 - Serial version of the SGWR model
 - Support for Gaussian and bi-square kernels
 - Also, supports a combination of adaptive bisquare and gaussian
-
-Key Features
-------------
-- Parallel Computation with MPI: Achieve substantial runtime reductions using multiple CPU cores.
 - Alpha Optimization: Automatically tune the contribution of similarity and spatial proximity.
-- Kernel Flexibility: Choose between Gaussian (default) and bi-square kernels.
-- Also, users have the ability to either chose standardize or don't standardize their data
-- Evaluation Metrics: Outputs include R², adjusted R², AICc, and other metrics
+- Also, users have the ability to either chose standardize or don't standardize their data in parallel version
 - Also, users can run the GWR model in both parallel and serial version of this library
 
 Data Format for parallel version (MPI)
