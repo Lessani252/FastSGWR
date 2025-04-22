@@ -38,6 +38,9 @@ Example: For a 3-class variable ("urban", "peri-urban", "rural"), create:
 - peri_urban_dummy: 1 if peri-urban, else 0
 - Rural becomes the reference class (excluded)
 
+![Example](https://github.com/user-attachments/assets/08a252df-c9ef-414a-ba30-a41914016e50)
+
+
 Usage
 -----
 After preparing your dataset and ensuring all dependencies are installed, the model can be run via the command line:
