@@ -98,7 +98,7 @@ The GUI tool includes:
   
 ![SGWR_screen](https://github.com/user-attachments/assets/fdd29f0b-ee43-4a42-92c2-b80bb2ada358)
 
-We acknowledge that this tool has been developed on top of the MGWR GUI tool.
+We acknowledge that this tool has been developed on top of the MGWR GUI tool (https://sgsup.asu.edu/sparc/mgwr).
 
 Installation requirements for the python package
 ------------------------------------------------
