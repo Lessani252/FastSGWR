@@ -80,7 +80,7 @@ Serial commands:
 - result = sgwr_model.fit()
 - if the 'alpha' value set to one (1) here (SGWR(g_coords, g_y, g_x, bw, data, 1)), then the model acts as GWR model.  
 
-Parameter extraction when running in serial mode:
+Parameter extraction when running in the serial mode:
 ----------------------------
 - result.R2
 - result.adj_R2
@@ -106,8 +106,8 @@ The GUI tool includes:
 
 We acknowledge that this tool has been developed on top of the MGWR GUI tool.
 
-Installation Requirements
--------------------------
+Installation requirements for the python package
+------------------------------------------------
 Ensure the following dependencies are installed:
 
 Standard Python Libraries:
