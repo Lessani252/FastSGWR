@@ -1,5 +1,9 @@
 FastSGWR: "Enhancing the Computational Efficiency of the SGWR Model and Introducing Its Software Implementation." This article along the python packages (parallel & sequential), and a Graphic User Interface (GUI) tool named 'SGWR Model' is developed based on this article: similarity and geographically weighted regression (SGWR) (https://doi.org/10.1080/13658816.2024.2342319).  
 
+Installation
+------------
+- pip install sgwr
+
 Citation
 --------
 If you use this package in your work, please cite the following articles:
