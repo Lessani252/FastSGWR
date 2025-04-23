@@ -52,28 +52,15 @@ After preparing your dataset and ensuring all dependencies are installed, the mo
 
 MPI Commands (parallel):
 ----------------------------
-- fastsgwr run -np x -data path_to_data (by default the kernel is bisquare function, and doesn't standardize the data)
-- fastsgwr run -np x -data path_to_data -standardize (using bisquare function and standardize the input data)
-- fastsgwr run -np x -data path_to_data -fixed 
-- fastsgwr run -np x -data path_to_data -fixed -standardize
-- fastsgwr run -np x -data path_to_data -biga (adaptive bisquare and gaussian)
-- fastsgwr run -np x -data path__to_data -gwr (run gwr as well in parallel)
-- x: Number of cores
-- path_to_data: Path to the CSV dataset
+![MPI COMMAND](https://github.com/user-attachments/assets/b2107dfc-aecd-4a95-bce2-f48a8da96c51)
+
 
 The output will be a CSV file saved in the same input directory, and containing local coefficients and performance metrics.
 
 Serial commands:
 ----------------------------
-- selector = ALPHA(g_coords, g_y, g_x, data, fixed=True, kernel='gaussian') ## for fixed bandwidth and gaussian kernel
-- bw, alpha = selector.fit()
-- sgwr_model = SGWR(g_coords, g_y, g_x, bw, data, alpha, fixed=True, kernel='gaussian') ## after bandwidth and alpha optimizationi
-- result = sgwr_model.fit()
-- selector = ALPHA(g_coords, g_y, g_x, data) ## for adaptive bandwidth and bisquare kernel
-- bw, alpha = selector.fit()
-- sgwr_model = SGWR(g_coords, g_y, g_x, bw, data, alpha) 
-- result = sgwr_model.fit()
-- if the 'alpha' value set to one (1) here (SGWR(g_coords, g_y, g_x, bw, data, 1)), then the model acts as GWR model.  
+ ![SERIAL COMMAND ](https://github.com/user-attachments/assets/bbf10ab0-3931-4df7-8ef1-50e821cf046f)
+
 
 Parameter extraction when running in the serial mode:
 ----------------------------
