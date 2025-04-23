@@ -52,10 +52,10 @@ After preparing your dataset and ensuring all dependencies are installed, the mo
 
 MPI Commands (parallel):
 ----------------------------
-- fastsgwr run -np x -data path_to_data (by default the kernel is Gaussian function, and doesn't standardize the data)
-- fastsgwr run -np x -data path_to_data -standardize (using Gaussian function and standardize the input data)
-- fastsgwr run -np x -data path_to_data -bisquare 
-- fastsgwr run -np x -data path_to_data -bisquare -standardize
+- fastsgwr run -np x -data path_to_data (by default the kernel is bisquare function, and doesn't standardize the data)
+- fastsgwr run -np x -data path_to_data -standardize (using bisquare function and standardize the input data)
+- fastsgwr run -np x -data path_to_data -fixed 
+- fastsgwr run -np x -data path_to_data -fixed -standardize
 - fastsgwr run -np x -data path_to_data -biga (adaptive bisquare and gaussian)
 - fastsgwr run -np x -data path__to_data -gwr (run gwr as well in parallel)
 - x: Number of cores
