@@ -2,7 +2,7 @@ FastSGWR: "Enhancing the Computational Efficiency of the SGWR Model and Introduc
 
 Installation
 ------------
-- To install the python package use this command "pip install sgwr"
+- To install the python package, please use this command "pip install sgwr"
 - To download the GUI tool, please download this file from the above "SGWR_Model_WINDOWS_0.1.setup.exe" and then you follow the installation steps
 
 Citation
