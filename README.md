@@ -3,7 +3,6 @@ FastSGWR: "Enhancing the Computational Efficiency of the SGWR Model and Introduc
 Installation
 ------------
 - pip install sgwr
-- 
 
 Citation
 --------
