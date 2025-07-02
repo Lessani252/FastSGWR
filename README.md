@@ -9,8 +9,8 @@ Citation
 --------
 If you use this package in your work, please cite the following articles:
 
-1. Lessani, M. Naser, and Zhenlong Li. "SGWR: similarity and geographically weighted regression." International Journal of Geographical Information Science 38, no. 7 (2024): 1232-1255. (https://doi.org/10.1080/13658816.2024.2342319)
-2. Lessani, M. Naser, and Zhenlong Li. "Enhancing the Computational Efficiency of the SGWR Model and Introducing Its Software Implementation." Annals of GIS (2025). "Under review"
+1. Lessani, M. Naser, and Zhenlong Li. 2024. “SGWR: Similarity and Geographically Weighted Regression.” International Journal of Geographical Information Science 38 (7): 1232–55. doi:10.1080/13658816.2024.2342319.
+2. Lessani, M. Naser, and Zhenlong Li. 2025. “Enhancing the Computational Efficiency of the SGWR Model and Introducing Its Software Implementation.” Annals of GIS, June, 1–16. doi:10.1080/19475683.2025.2523739.
    
 Overview
 --------
