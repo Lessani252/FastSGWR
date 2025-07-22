@@ -4,6 +4,7 @@ Installation
 ------------
 - To install the python package, please use this command "pip install sgwr"
 - To download the GUI tool, please download this file from the above "SGWR_Model_WINDOWS_0.1.setup.exe" and then you follow the installation steps
+- You can find the demo video here: https://giscience.psu.edu/2025/07/18/sgwr-similarity-and-geographically-weighted-regression/ 
 
 Citation
 --------
