@@ -3,7 +3,7 @@ FastSGWR: "Enhancing the Computational Efficiency of the SGWR Model and Introduc
 Installation
 ------------
 - To install the python package, please use this command "pip install sgwr"
-- To download the latest version of the GUI tool, please download this file from the above "SGWR_Model_WINDOWS_0.2.setup.exe" and then you follow the installation steps. Note: Please if you use any antivirous, you should add these setup into your whitelist
+- To download the latest version of the GUI tool, please download this file from the above "SGWR_Model_WINDOWS_0.2.setup.exe" and then you follow the installation steps. Note: If you are using any antivirus software, please turn it off temporarily to download the tool. After downloading, add the setup file to your antivirus whitelist before running it to ensure the installation works successfully
 - You can find the demo video here: https://giscience.psu.edu/2025/07/18/sgwr-similarity-and-geographically-weighted-regression/ 
 
 Citation
