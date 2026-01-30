@@ -1,7 +1,8 @@
 import os
 import click
-# import fastsgwr
 from sgwr import fastsgwr
+import shlex
+import platform
 
 @click.group()
 @click.version_option("0.2.9")
@@ -28,7 +29,20 @@ def run(np, data, out, adaptive, bw, minbw, chunks, estonly, standardize, alphac
     out = os.path.join(output, out)
 
     # Build the mpi command
-    command = f'mpiexec -np {np} python "{mpi_path}" -data "{data}" -out "{out}" -c'
+    #command = f'mpiexec -np {np} python "{mpi_path}" -data "{data}" -out "{out}" -c'
+    def safe_quote(path):
+        if platform.system() == "Windows":
+            # Use double quotes for Windows (cmd-compatible)
+            return f'"{path}"'
+        else:
+            # Use shlex.quote for Unix/Linux/macOS
+            return shlex.quote(path)
+
+    mpi_path_escaped = safe_quote(mpi_path)
+    data_escaped = safe_quote(data)
+    out_escaped = safe_quote(out)
+
+    command = f'mpiexec -np {np} python {mpi_path_escaped} -data {data_escaped} -out {out_escaped} -c'
 
     if bw is not None and bw != "":
         command += f' -bw {bw}'
