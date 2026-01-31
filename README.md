@@ -6,6 +6,10 @@ Installation
 - To download the latest version of the GUI tool, please download this file from the above "SGWR_Model_WINDOWS_0.2.setup.exe" and then you follow the installation steps. Note: If you are using any antivirus software, please turn it off temporarily to download the tool. After downloading, add the setup file to your antivirus whitelist before running it to ensure the installation works successfully
 - You can find the demo video here: https://giscience.psu.edu/2025/07/18/sgwr-similarity-and-geographically-weighted-regression/ 
 
+Multiscale SGWR:
+---------
+The multiscale version of this model (M-SGWR) can be found here along with its Github Repo: https://doi.org/10.48550/arXiv.2601.19888.
+
 Citation
 --------
 If you use this package in your work, please cite the following articles:
@@ -27,7 +31,7 @@ This Python package includes:
 - Also, users have the ability to either chose standardize or don't standardize their data in parallel version
 - Also, users can run the GWR model in both parallel and serial version of this library
 
-Data Format for parallel version (MPI)
+Data Format for Parallel Version (MPI)
 --------------------------------------
 Input data must be a CSV file with the following column order:
 - longitude, latitude, dependent_variable, independent_variable_1, ..., independent_variable_n
@@ -36,7 +40,7 @@ Input data must be a CSV file with the following column order:
 
 ![data format](https://github.com/user-attachments/assets/e5e6547d-5eb0-444a-a9be-8b315cbf9997)
 
-Categorical variables
+Categorical Variables
 ---------------------
 Categorical variables must be pre-processed into dummy variables.
 Example: For a 3-class variable ("urban", "peri-urban", "rural"), create:
@@ -58,12 +62,12 @@ MPI Commands (parallel):
 
 The output will be a CSV file saved in the same input directory, and containing local coefficients and performance metrics.
 
-Serial commands:
+Serial Commands:
 ----------------------------
  ![SERIAL COMMAND ](https://github.com/user-attachments/assets/bbf10ab0-3931-4df7-8ef1-50e821cf046f)
 
 
-Parameter extraction when running in the serial mode:
+Parameter Extraction When Running in the Serial Mode:
 ----------------------------
 - result.R2
 - result.adj_R2
@@ -76,7 +80,7 @@ Parameter extraction when running in the serial mode:
 - result.filter_tvals(alpha=0.05) ### t values with 95% confidence interval
 - result.summary()
 
-The GUI tool includes:
+The GUI Tool Includes:
 ---------------------
 - Three types of bandwidths are supported: adaptive (bisquare), fixed (Gaussian), and adaptive bisquare for bandwidth optimization, followed by adaptive Gaussian for alpha optimization and model fitting.
 - Three options are available for alpha optimization: a pre-defined value, a greedy optimization approach, and a divide-and-conquer strategy.
@@ -89,7 +93,7 @@ The GUI tool includes:
 
 We acknowledge that this tool has been developed on top of the MGWR GUI tool (https://sgsup.asu.edu/sparc/mgwr).
 
-Installation requirements for the python package
+Installation Requirements for the Python Package
 ------------------------------------------------
 Ensure the following dependencies are installed:
 
