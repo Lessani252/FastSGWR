@@ -4,6 +4,10 @@ Installation
 ------------
 - To install the python package, please use this command "pip install sgwr"
 - To download the latest version of the GUI tool, please download this file from the above "SGWR_Model_WINDOWS_0.3_setup.exe" and then you follow the installation steps. Note: If you are using any antivirus software, please turn it off temporarily to download the tool. After downloading, add the setup file to your antivirus whitelist before running it to ensure the installation works successfully
+
+<img width="762" height="526" alt="SGWR" src="https://github.com/user-attachments/assets/f1d8ff8a-680e-4ff9-ac2e-4480ab6f697e" />
+
+  
 - You can find the demo video here: https://giscience.psu.edu/2025/07/18/sgwr-similarity-and-geographically-weighted-regression/ 
 
 Multiscale SGWR:
@@ -88,8 +92,6 @@ The GUI Tool Includes:
 - Users can also choose whether to standardize the data by selecting the "Variable Standardization" option under the 'Additional' settings. By default the tool standardize the data.
 - The tool can also run the GWR model. To do so, simply enter a value of one (1) for alpha in the predefined box before running the model.
 - The tool also contains the result for GLM in the output result. 
-  
-![SGWR_screen](https://github.com/user-attachments/assets/fdd29f0b-ee43-4a42-92c2-b80bb2ada358)
 
 We acknowledge that this tool has been developed on top of the MGWR GUI tool (https://sgsup.asu.edu/sparc/mgwr).
 
