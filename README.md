@@ -12,7 +12,7 @@ Installation
 
 Multiscale SGWR:
 ---------
-The multiscale version of this model (M-SGWR) can be found here along with its Github Repo: https://doi.org/10.48550/arXiv.2601.19888.
+The multiscale version of this model (M-SGWR) can be found here along with its Github Repo and GUI tool: https://doi.org/10.48550/arXiv.2601.19888.
 
 Citation
 --------
