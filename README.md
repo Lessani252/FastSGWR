@@ -3,7 +3,7 @@ FastSGWR: "Enhancing the Computational Efficiency of the SGWR Model and Introduc
 Installation
 ------------
 - To install the python package, please use this command "pip install sgwr"
-- To download the latest version of the GUI tool, please download this file from the above "SGWR_Model_WINDOWS_0.3_setup.exe" and then you follow the installation steps. Note: If you are using any antivirus software, please turn it off temporarily to download the tool. After downloading, add the setup file to your antivirus whitelist before running it to ensure the installation works successfully
+- To download the latest version of the GUI tool, please download this file from the above "SGWR_Model_WINDOWS_0.4_setup.exe" and then you follow the installation steps. Note: If you are using any antivirus software, please turn it off temporarily to download the tool. After downloading, add the setup file to your antivirus whitelist before running it to ensure the installation works successfully
 
 <img width="762" height="526" alt="SGWR" src="https://github.com/user-attachments/assets/f1d8ff8a-680e-4ff9-ac2e-4480ab6f697e" />
 
